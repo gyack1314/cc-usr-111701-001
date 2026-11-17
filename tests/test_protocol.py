@@ -20,6 +20,8 @@ class ProtocolTest(unittest.TestCase):
         self.assertTrue(view['locally_closed'])
         self.assertFalse(view['business']['publishable'])
         self.assertTrue(view['business']['reasons'])
+        self.assertIn('node/7', view['business']['deleted_elements'])
+        self.assertTrue(any('node/7' in reason for reason in view['business']['reasons']))
         self.assertFalse(view['business']['publishable'])
         self.assertTrue(view['business']['reasons'])
         self.assertEqual({r['source_digest'] for r in view['records']}, {digest})
