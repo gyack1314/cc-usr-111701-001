@@ -1,0 +1,4 @@
+{
+  "state": "sequenceNumber=1234\ntimestamp=2026-11-16T10\\:20\\:00Z\n",
+  "osc": "<osmChange version=\"0.6\"><modify><way id=\"42\" version=\"8\"><nd ref=\"7\"/><tag k=\"name\" v=\"北路\"/></way></modify><delete><node id=\"7\" version=\"5\"/></delete></osmChange>"
+}

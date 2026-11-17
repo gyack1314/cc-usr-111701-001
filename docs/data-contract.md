@@ -5,3 +5,5 @@
 ## 已接收的协议资料
 现有入口接收复制状态中的 sequenceNumber 与 timestamp，以及 osmChange 的 create、modify、delete、要素版本和 way 的 node 引用；这些字段会写入版本账本。尚未处理 gzip 镜像水位与跨序列完整性。
 
+
+同集合第二次来源接收保存在 data/conflict-case.json。冲突事务必须保持第一份收据和旧投影。
