@@ -1,0 +1,52 @@
+{
+  "protocol": "osm-replication",
+  "collection": "sample-001",
+  "records": [
+    {
+      "kind": "sequence",
+      "id": "sequence-1",
+      "version": "v1",
+      "refs": [],
+      "payload": {
+        "source": "synthetic",
+        "position": 0
+      }
+    },
+    {
+      "kind": "element",
+      "id": "element-2",
+      "version": "v1",
+      "refs": [
+        "sequence-1"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 1
+      }
+    },
+    {
+      "kind": "version",
+      "id": "version-3",
+      "version": "v1",
+      "refs": [
+        "element-2"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 2
+      }
+    },
+    {
+      "kind": "delete",
+      "id": "delete-4",
+      "version": "v1",
+      "refs": [
+        "version-3"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 3
+      }
+    }
+  ]
+}

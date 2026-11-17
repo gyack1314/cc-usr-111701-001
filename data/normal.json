@@ -1,18 +1,13 @@
 {
   "kind": "source-records",
+  "protocol": "osm-replication",
+  "collection": "sample-001",
   "assets": [
     {
-      "path": "capture.bin",
-      "bytes": 32,
-      "sha256": "8d4822b45635b61a94af37c2be8d8a96acccccdd2c05383752c4ed0bf51012c3"
+      "path": "source.json",
+      "bytes": 902,
+      "sha256": "2ae8d5249f634304fc8ae59640b95f75edac5044e0a9319c50938f0af083afba"
     }
   ],
-  "chunk_lengths": [
-    1,
-    4,
-    7,
-    3,
-    17
-  ],
-  "close_epoch": true
+  "calls": []
 }
