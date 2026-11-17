@@ -1,0 +1,14 @@
+{
+  "kind": "source-records",
+  "protocol": "osm-replication",
+  "collection": "protocol-sample",
+  "source_url": "https://mirror.example.test/replication/minute/000/001/234.osc.gz",
+  "assets": [
+    {
+      "path": "protocol-source.bin",
+      "bytes": 270,
+      "sha256": "c39addbde1443ae83a8af515fcadc3dbd9084cdb1d59c24af48db5d8fd34bd59"
+    }
+  ],
+  "calls": []
+}
