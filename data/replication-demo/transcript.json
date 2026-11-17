@@ -1,0 +1,23 @@
+{
+  "protocol": "osm-replication",
+  "collection": "demo-minute",
+  "anchor": 2000,
+  "receipts": [
+    {
+      "mirror": "mirror-a.example.test",
+      "url": "https://mirror-a.example.test/replication/minute/000/002/001.osc.gz",
+      "sequence": 2001,
+      "path": "seq-2001/mirror-a.example.test/bundle.osc.gz",
+      "bytes": 325,
+      "sha256": "1ef844ec0bc14fa7b5ed1f35f5375050a80b93acc6d08b1aba1f787e3a588364"
+    },
+    {
+      "mirror": "mirror-b.example.test",
+      "url": "https://mirror-b.example.test/replication/minute/000/002/002.osc.gz",
+      "sequence": 2002,
+      "path": "seq-2002/mirror-b.example.test/bundle.osc.gz",
+      "bytes": 291,
+      "sha256": "a01cd107342c350a283ab65f5ebb8ffcb93ef051688993e26c0d774c27d5d157"
+    }
+  ]
+}
